@@ -1,0 +1,47 @@
+:root {
+    --naranjo : #FF7B54;
+    --naranjo-palido :#FFB26B;
+    --amarillo  : #FFD56B;
+    --verde : #939B62;
+
+    
+}
+
+.pt-sans-regular {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pt-sans-bold {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+  /**  color de titulo  **/
+
+ .logo{
+    text-decoration: none;
+ }
+ 
+  .cristian{ 
+   
+    color: var(--naranjo);
+  }
+
+  .leiva{
+    color: var(--verde);
+  }
+
+  .aran{ 
+    color: var(--naranjo);
+  }
+
+  /** color fondo menu **/
+
+  .backmenu{
+    background-color: var(--naranjo-palido);
+    
+  }

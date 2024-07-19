@@ -4,29 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cristian Leiva A.</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">  
+    <link rel="stylesheet" href="./assets/css/style.css">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
+
+<body class="container">
 <header> 
-<div class="header">
-<a href="index.html" class="logo"> <h1>CristianLeivaA</h1></a>
+<div class="header d-flex justify-content-between barra" >
+  
+  <a href="index.html" class="logo  d-flex">
+  <h1 class="pt-sans-bold cristian">Cristian</h1>
+    <h1 class="pt-sans-bold leiva">Leiva</h1>
+    <h1 class="pt-sans-bold aran">A</h1></a>
+
+  <nav class="navbar ">
+    <div class="container ">
+  
+      <button class="navbar-toggler pt-sans-bold" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end backmenu" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header ">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
 
 </div>
-</header>
-<body>
 
-    <main  class="portafolio"> Trabajos Realizados</main>
+</header>
+
+
+<main  class="main">
   
+  <section class="habilidades">Lenguajes Utilizados</section>    
+      
+</main>
   
-   <section class="habilidades">Lenguajes Utilizados</section>
+   
+      <section class="habilidades">Lenguajes Utilizados</section>
+
 
 
    <section class="contacto"> Contactame</section>
-
+  
+  
    <footer></footer>
 
-   <script>
+   <script src="./assets/js/bootstrap.bundle.min.js"></script>
 
 
-   </script>
+
 </body>
 </html>
