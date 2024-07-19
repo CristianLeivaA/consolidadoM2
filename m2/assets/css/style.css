@@ -18,7 +18,14 @@
     font-weight: 700;
     font-style: normal;
   }
-  
+
+
+.playpen-sans-uniquifier {
+  font-family: "Playpen Sans", cursive;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
 
   /**  color de titulo  **/
 
