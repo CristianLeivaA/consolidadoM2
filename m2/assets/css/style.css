@@ -45,8 +45,16 @@
   .aran{ 
     color: var(--naranjo);
   }
+ .descripcion{
 
-  /** color fondo menu **/
+    color: var(--verde);
+ }
+
+ .titulos { 
+      color: var(--naranjo);
+
+ }
+  /** color fondo menu **/ 
 
   .backmenu{
     background-color: var(--naranjo-palido);
