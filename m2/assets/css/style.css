@@ -38,7 +38,7 @@
     color: var(--naranjo);
   }
 
-  .leiva{
+  .leiva,.card-title{
     color: var(--verde);
   }
 
@@ -51,12 +51,22 @@
  }
 
  .titulos { 
-      color: var(--naranjo);
+      color: var(--naranjo-palido);
 
  }
-  /** color fondo menu **/ 
+ .card-text{
+  color: var(--verde);
+ }
+  /** color fondo **/ 
 
   .backmenu{
     background-color: var(--naranjo-palido);
     
   }
+ 
+   /** color button  **/ 
+
+   .btn {
+   
+    color: var(--amarillo);
+    background-color: var(--verde);   }
