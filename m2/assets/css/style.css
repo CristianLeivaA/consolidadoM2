@@ -60,7 +60,8 @@
   /** color fondo **/ 
 
   .backmenu{
-    background-color: var(--naranjo-palido);
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 11%, rgba(255,178,107,1) 100%); 
     
   }
  
@@ -70,3 +71,8 @@
    
     color: var(--amarillo);
     background-color: var(--verde);   }
+
+    body {
+      background: rgb(255,255,255);
+      background: linear-gradient(180deg, rgba(255,255,255,1) 80%, rgba(255,213,107,0.3617822128851541) 100%);
+    }
