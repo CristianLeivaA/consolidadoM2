@@ -27,6 +27,9 @@
   font-style: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+}
   /**  color de titulo  **/
 
  .logo{
@@ -66,7 +69,11 @@
   }
  
    /** color button  **/ 
+   .nav-link:hover{
+color: var(--naranjo);
 
+   }
+   
    .btn {
    
     color: var(--amarillo);
@@ -76,3 +83,4 @@
       background: rgb(255,255,255);
       background: linear-gradient(180deg, rgba(255,255,255,1) 80%, rgba(255,213,107,0.3617822128851541) 100%);
     }
+
