@@ -37,13 +37,13 @@ var root = document.querySelector('#root');
 
         proyects.forEach(proyect => {
         const cards = document.createElement('div') 
-        cards.classList.add('col-3','border','border-2','m-1','h-auto','d-inline-block');
+        cards.classList.add('col-12','col-lg-3','col-sm-5','border','border-2','m-1','h-auto','d-lg-inline-block','d-inline-block');
          cards.innerHTML = 
 
            `
            <button type="button" class="btn btn-secondary pt-sans-regular container fs-5 mt-5 col-3 d-md-block" onclick="location.href='${proyect.link}'">Ver</button>
                 
-           <div class="p-3 " id='name'>           
+           <div class="p-3" id='name'>           
               
                     <div class="card-body">
                     <img src='${proyect.image}' class="card-img-top"alt='${proyect.description}'>
